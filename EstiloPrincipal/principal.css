@@ -51,7 +51,10 @@ a:hover {
     background-color: #1114 ;
     border: 1px solid #1114 ;
 }
+a:active {
 
+    background-color: #091e3f; 
+}
 
 .Contenedor :nth-child(1) {
     margin-right: auto;

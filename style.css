@@ -65,7 +65,10 @@ a:hover {
     background-color: #1114 ;
     border: 1px solid #1114 ;
 }
+a:active {
 
+        background-color: #091e3f; 
+}
 
 .Contenedor :nth-child(1) {
     margin-right: auto;
@@ -131,6 +134,12 @@ a:hover {
         background-color: #0F336D;   
 
 }
+
+.ContenedorJale1 a:active {
+
+    background-color: #091e3f;   
+
+}
 .ContenedorJale2 {
     text-align: center;
     width: 60vw;
@@ -189,6 +198,11 @@ a:hover {
     background-color: #0F336D;   
 
 }
+.ContenedorEmpuje1 a:active {
+
+    background-color: #091e3f;   
+
+}
 
 .ContenedorEmpuje2 {
     text-align: center;
@@ -238,6 +252,11 @@ a:hover {
 
     background-color: #0F336D;   
 
+
+}
+.ContenedorPierna1 a:active {
+
+    background-color: #091e3f;   
 }
 
 .ContenedorPierna2 {
