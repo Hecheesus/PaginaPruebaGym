@@ -1,0 +1,265 @@
+body {
+    background-color: #FFF;
+    padding: 0;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+.Contenedor {   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    background-color: #0F336D;    
+    font-size: 13px;
+    
+}
+nav {
+    padding: 0;
+
+}
+
+
+.Contenedor li {
+    list-style: none;
+    margin-right: 1rem;
+
+
+}
+.Contenedor li a {
+    text-decoration: none;
+    color: #eee ;
+   
+    display: inline-block;
+    padding: .9rem;
+    border: 1px solid #0F336D ;  
+    border-radius : 7px;
+
+  
+}
+.Contenedor li .Logo  {
+    padding: 0;
+}
+.Contenedor li a img {
+ margin: 0;
+}
+
+a:hover {
+    background-color: #1114 ;
+    border: 1px solid #1114 ;
+}
+
+
+.Contenedor :nth-child(1) {
+    margin-right: auto;
+
+    box-sizing: border-box;
+ 
+}
+
+.Contenedor :nth-child(5) a {
+    background-color:#2478FF 
+}
+
+
+.Contenedor :nth-child(5) a:hover {
+    background-color: #1117;
+    
+}
+
+
+#Prueba img {
+
+    height: 4.5rem;
+}
+
+/** Princcipal **/
+
+.Principal {
+    max-width: 100vw;
+    padding: 3vw;
+    display: grid;
+    background-color: #FFF;
+    grid-template-columns: 33% 33% 33%;
+    gap: 3vw;
+    text-align: center;
+    font-size: .9rem;
+}
+
+.PrincipalEjercicio {
+    background-color: #0f2b57;
+    width: 25vw;
+    border:  #051124 solid 1px;
+    border-radius: 6px ;
+    color:  #c9d3e4;
+    padding: 1.5rem;
+    margin: 0;
+
+}
+
+.Dominadas img{
+
+    width: 25vw; 
+ 
+}
+
+.PrincipalEjercicio h2,p,img  {
+    color: #DBDDDF;
+    margin-bottom: .7rem;
+
+}
+ p{
+     margin: 1rem;
+ }
+.ultima {
+    margin-bottom: 0;
+} 
+/** footer**/
+footer {
+    background-color: #0F336D;
+    display: flex;
+    justify-content: center;
+   padding: 1rem;
+   color: #fff;
+}
+
+/** media query **/
+@media all and (min-width:310px) and (max-width:1400px) {
+
+.Principal {
+
+    grid-template-columns: 50% 50%;
+    gap: 2vw;
+
+}
+.PrincipalEjercicio {
+
+    width: 44vw;
+
+
+}
+.Dominadas img {
+
+    min-height: 35vw  ;
+ 
+}
+ footer{
+    text-align: center;
+    background-color: #0F336D;
+    display: flex;
+    justify-content: center;
+   padding: 1rem;
+   color: #fff;
+}
+
+
+@media all and (min-width:310px) and (max-width:770px) {
+
+    .Principal {
+            
+        grid-template-columns: 100%;
+ 
+        font-size: .9rem;
+        margin: 7vw;
+        margin-bottom: 0;
+
+    }
+    .PrincipalEjercicio {
+ 
+        width: 80vw;
+
+    
+        
+    }
+    .PrincipalEjercicio h2 {
+ 
+        font-size: 1rem;
+    
+    }
+    .Dominadas img {
+    
+        min-width: 60vw  ;
+     
+    }
+}    
+@media all and (min-width:310px) and (max-width:770px){
+    /** nav  **/
+ 
+    header {
+        margin-top: 10vw;
+  
+    }
+    .Contenedor li a {
+    padding: 0.9rem;
+      font-size: .8rem;
+    }
+    .ContenedorItem  {
+     padding: 0;
+     margin: .3rem;
+    }
+ 
+    .ContenedorItem a {
+ 
+        margin: .2rem;
+        padding: 30px;
+        margin: 0;
+    }
+ 
+     #Prueba {
+    position: absolute;
+     top:0px; 
+     height: 10vw;
+     
+     }   
+     #Prueba img {
+ 
+          height: 10vw;
+          
+
+        
+    }   
+    html {
+        background-color:#0F336D ;
+    }
+
+    
+}
+@media all and (min-width:310px) and (max-width:500px){
+    
+    .ContenedorNavMadre {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Contenedor li {
+        margin: 0;
+        margin-bottom: .6rem;
+    }
+    .Contenedor li a {
+        padding: .4rem;
+        font-size: .765rem;
+
+    }
+    .Principal {
+        font-size: .98rem;
+    }
+    .Principal {
+        
+        grid-template-columns: 100%;
+        
+        margin: 4.5vw;
+        margin-bottom: 0;
+
+    }
+    .PrincipalEjercicio {
+ 
+        width: 85vw;
+
+    
+        
+    }
+}
+}
